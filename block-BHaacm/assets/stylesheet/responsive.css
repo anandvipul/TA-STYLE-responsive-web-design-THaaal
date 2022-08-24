@@ -1,0 +1,49 @@
+@media all and (max-width: 768px) {
+  header {
+    height: 100%;
+    padding-bottom: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    margin-top: 1rem;
+  }
+  .flex-row {
+    flex-direction: column;
+  }
+  .col-2 {
+    width: 100%;
+    padding: 0;
+    padding-top: 1rem;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+  }
+  .blog-card p,
+  .hero > .left-hero p {
+    font-size: 14px;
+    line-height: 1.5em;
+  }
+
+  .align-to-main {
+    width: 90vw;
+  }
+  .blog h3 {
+    padding-bottom: 1rem;
+  }
+  .blog-card {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  footer {
+    height: 100%;
+  }
+  footer > div {
+    align-items: center;
+  }
+  .social-icons {
+    margin: 1rem auto;
+  }
+}

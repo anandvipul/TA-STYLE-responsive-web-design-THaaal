@@ -1,0 +1,73 @@
+header {
+  height: var(--nav-bar-height);
+  background-color: var(--theme-blue);
+}
+
+.nav-bar {
+  padding-top: 1.5vh;
+}
+
+.nav-links li a {
+  font-weight: 600;
+  color: white;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.hero-container {
+  background-color: #e9ecfc;
+}
+
+.hero {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.hero > .left-hero h1 {
+  padding-bottom: 2vh;
+}
+
+.hero > .left-hero p {
+  padding-bottom: 2vh;
+  line-height: 2em;
+  font-size: 18px;
+  text-align: justify;
+  color: var(--theme-grey);
+}
+
+.blog h3 {
+  padding-top: 10vh;
+  text-align: center;
+  padding-bottom: 10vh;
+}
+
+.blog-card {
+  width: 30%;
+}
+
+.blog-card h5 {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+.blog-card p {
+  padding-bottom: 2vh;
+  padding-right: 2vh;
+  text-align: justify;
+  color: var(--theme-grey);
+}
+
+.blog-card img {
+  width: 100%;
+}
+
+footer {
+  height: 8vh;
+  background-color: var(--theme-blue);
+  color: white;
+  font-size: 20px;
+}
+
+footer > div {
+  padding-top: 3vh;
+}
