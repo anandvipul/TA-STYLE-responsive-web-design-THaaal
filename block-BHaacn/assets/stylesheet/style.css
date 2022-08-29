@@ -28,6 +28,11 @@ nav ul li a {
 #toggleNav {
   display: none;
 }
+
+.bars-close {
+  display: none;
+}
+
 #toggleNav:checked ~ .mobile-menu-items {
   display: flex;
   flex-direction: column;
@@ -316,6 +321,14 @@ nav ul li a {
 }
 
 @media all and (max-width: 768px) {
+  .bars-close {
+    display: inline-block;
+  }
+
+  #toggleNav:checked ~ .bars-close {
+    display: none;
+  }
+
   nav {
     padding: 1rem;
     flex-direction: row !important;
